@@ -4,12 +4,17 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+html{
+  overflow-x: hidden;
+}
 
 body{
     width: 100vw;
     background-image: url("\\Assets\\bg-image01.png");
     background-size: 100vw 100vh;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
     background-repeat: no-repeat;
 
 
@@ -34,9 +39,23 @@ body{
    
 }
 
-#nav-bar-container01 img{
+#nav-bar-container01{
     width: 100px;
 }
+
+
+.moblie-navbar-icon{
+  display: none;
+  width: 4rem;
+  height: 4rem;
+
+}
+
+
+.fa-xmark{
+  display: none;
+}
+
 
 
 #nav-bar-container01 span{
@@ -59,7 +78,7 @@ body{
   }
 
   #nav-bar #nav-bar-ul{
-    visibility: hidden;
+    /* visibility: hidden; */
     list-style: none;
     /* margin-top: 10px; */
     display: flex;
@@ -530,6 +549,384 @@ body{
   color: rgb(153, 153, 153);
 
 }
+
+
+/* footer section  */
+
+#footer-section{
+  margin-top: 100px;
+}
+
+#footer-section-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: red;
+  color: #fff;
+  height: 10vh;
+}
+
+
+
+
+/* ***************************************************************************************************************************************************************************************************************************************************************************** */
+/* Mobile responsive style */
+
+
+@media (max-width : 1024px){
+
+  body{
+    width: 100vw;
+    background-image: url("\\Assets\\bg-image01.png");
+    background-size: 1024px 650px;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+
+
+}
+
+
+
+  #nav-bar-container01{
+    margin-left: -100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+  }
+
+  #nav-bar-container01 img{
+    width: 100px;
+  } 
+
+  #nav-bar-container01 span{
+    font-size: x-large;
+  }
+
+
+  #nav-bar{
+
+    position: relative;
+    background-color: white; 
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;
+    z-index: 998;
+}
+
+/* #social-media-icons{
+    display: none;
+}
+ */
+
+#nav-bar-ul{ 
+    margin-top: 90px; 
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: all 0.5s linear;
+
+
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+
+#nav-bar-ul li a{
+    font-weight: 600;
+}
+
+
+#nav-bar-ul li a:hover{
+    color: black;
+}
+
+
+
+
+.active #nav-bar-ul{
+    transform: translateY(0);
+    opacity: 1;
+
+    visibility: visible;
+    pointer-events: auto;
+
+}
+
+.fa-xmark{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+
+}
+
+.active .mobile-navbar-btn .fa-xmark{
+    display: block;
+    font-size: 2rem;
+    margin-top: 35px;
+    color: red;
+    
+} 
+
+.active .mobile-navbar-btn .fa-bars{
+
+    display: none;
+}
+
+
+.fa-bars{
+
+    color: red;
+    font-size: 2rem;
+    display: block;
+    z-index: 999;
+    margin-top: 35px;
+    position: fixed;
+    right: 0;
+
+    
+
+}
+
+#after-header-section{
+  margin-top: 150px;
+}
+
+#after-header-section-container01{
+
+  width: 100vw;
+  display: block;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+  margin-right: 15px;
+
+}
+
+#after-header-section-container01 h1{
+  color: rgba(205, 205, 205, 0.557);
+  font-style: italic;
+  font-size: 50px;
+  margin-right: 10px;
+}
+
+#after-header-section-container01-para01{
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgba(205, 205, 205, 0.557);
+  font-style: italic;
+
+}
+
+#after-header-section-container01-para02{
+  /* letter-spacing: .5px; */
+  line-height: 1.4;
+  color: rgba(205, 205, 205, 0.557);
+  font-style: italic;
+  font-weight: 600;
+  
+  text-align: right;
+  width: 70vw;
+}
+
+
+
+
+#after-header-another-section-container01{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(228, 16, 16);
+  justify-content: start;
+  align-items: start;
+
+  margin-top: 430px;
+  color: white;
+  width: 80vw;
+  height: 15vh;
+
+
+}
+
+#after-header-another-section-container01 div p{
+  margin-top: 10px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+#after-header-another-section-container01 button{
+  cursor: pointer;
+  margin-right:0px ;
+  padding: 10px 30px;
+  background-color: #fff;
+  color: red;
+  font-weight: 900; 
+  font-size: 16px;
+  border: 2px solid rgb(228, 16, 16) ;
+}
+
+#after-header-another-section-container01 span{
+  font-size:small;
+  font-weight: 100;
+}
+
+
+
+/* About us section */
+
+
+#Aboutus-main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#Aboutus-section-container01{
+  padding-left: 10px;
+  width: 100%;
+
+}
+
+
+#Schedule-img-section{
+  margin-top: 100px;
+
+
+}
+
+
+#Schedule-img-section-container01 img{
+  width: 100vw;
+  height: 600px;
+  position: absolute;
+  z-index: -1;
+}
+
+
+#Schedule-img-Subcontainer01{
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  gap: 15px;
+
+  z-index: 1;
+}
+
+
+#Schedule-img-Subcontainer01 h1{
+  font-size: 35px;
+  color: #fff;
+}
+
+#Schedule-img-Subcontainer01 p{
+  color: #fff;
+  font-size: large;
+}
+
+#Schedule-img-Subcontainer01 button{
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #fff;
+  color: red;
+  transition: all 0.5s linear;
+}
+
+#Schedule-img-Subcontainer01 button:hover{
+  border: 2px solid black;
+  background-color: black;
+  color: #fff;
+}
+
+#what-we-do-Subcontainer01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#Fitness-Schedule-container03-01{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#Fitness-Schedule-container03-02{
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#Fitness-Schedule-container03-01-div{
+  width: 100%;
+  margin-bottom: 10px;
+  
+}
+
+#Fitness-Schedule-section-container02{
+  border: 2px solid red;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#days-name{
+
+  width: 100%;
+  display: flex;
+  align-content: center;
+  /* gap: 40px; */
+}
+
+#days-name p{
+  background-color: #fff;
+  color: red;
+  padding: 10px 15px;
+  font-size: large;
+  cursor: pointer;
+}
+
+
+#trainer-section-container02{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+}
+
+
 
 
 

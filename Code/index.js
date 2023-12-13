@@ -1,3 +1,16 @@
+const mobile_nav = document.querySelector('.mobile-navbar-btn')
+const navHeader = document.querySelector('.header');
+
+const toggleNavBar = () =>{
+
+  navHeader.classList.toggle("active")
+  
+};
+
+mobile_nav.addEventListener("click",()=> toggleNavBar());
+
+
+
 window.onscroll = function() {myFunction()};
 
 var navbar = document.querySelector("#nav-bar");
@@ -46,19 +59,7 @@ function myFunction() {
 }
 
 
-barIcon.addEventListener("click",displayul);
 
-barIcon.addEventListener("dblclick",displayul1)
-
-function displayul(){
-      navBarUl.style.visibility = "inherit"
-        
-     }
-
-function displayul1(){
-        navBarUl.style.visibility = "hidden"
-          
-       }
 
 
 
