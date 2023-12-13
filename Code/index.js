@@ -6,6 +6,17 @@ let barIcon = document.querySelector('.header-bar-icon1')
 let navBarUl = document.querySelector("#nav-bar-ul")
 var sticky = navbar.offsetTop;
 
+// Fitness Schedule logic
+
+let day01 = document.querySelector("#day01")
+let day02 = document.querySelector("#day02")
+let day03 = document.querySelector("#day03")
+
+let Schedule1 = document.querySelector("#Fitness-Schedule-container03-01")
+let Schedule2 = document.querySelector("#Fitness-Schedule-container03-02")
+
+
+
 function myFunction() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky");
@@ -55,18 +66,73 @@ function displayul1(){
 
 
 
-// if (navBarUl.style.visibility == "hidden"){
 
-//     function displayul(){
-//         navBarUl.style.visibility = "inherit"
-    
-//     }
-// }else{
-//     function displayul(){
-//         navBarUl.style.visibility = "hidden"
-    
-//     }
-// }
+day01.addEventListener("click",schedule1fun)
+
+day02.addEventListener("click",schedule2fun)
+
+day03.addEventListener("click",schedule3fun)
+
+function schedule1fun(){
+  day03.style.backgroundColor = "white"
+  day03.style.color = "red"
+  day01.style.backgroundColor = "red"
+  day01.style.color = "white"
+  day02.style.backgroundColor = "white"
+  day02.style.color = "red"
+  
+
+  Schedule1.style.visibility = "inherit"
+  Schedule2.style.visibility = "hidden"
+
+  
+
+}
+
+
+
+
+
+function schedule2fun(){
+  day03.style.backgroundColor = "white"
+  day03.style.color = "red"
+  day01.style.backgroundColor = "white"
+  day01.style.color = "red"
+  day02.style.backgroundColor = "red"
+  day02.style.color = "white"
+  Schedule2.style.marginTop = "-130px"
+  Schedule1.style.visibility = "hidden"
+  
+
+  Schedule2.style.visibility = "inherit"
+
+
+}
+
+function schedule3fun(){
+  day01.style.backgroundColor = "white"
+  day01.style.color = "red"
+  day02.style.backgroundColor = "white"
+  day02.style.color = "red"
+  day03.style.backgroundColor = "red"
+  day03.style.color = "white"
+  
+
+  Schedule2.style.marginTop = "30px"
+
+  Schedule1.style.visibility = "inherit"
+  Schedule2.style.visibility = "inherit"
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

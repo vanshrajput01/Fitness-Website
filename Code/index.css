@@ -20,6 +20,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 999;
 
 
 }
@@ -236,7 +237,7 @@ body{
 
   #Schedule-img-section-container01 img{
     width: 100vw;
-    height: 100vh;
+    height: 600px;
     position: absolute;
     z-index: -1;
   }
@@ -279,6 +280,257 @@ body{
     background-color: black;
     color: #fff;
   }
+
+
+  /* what we do section style */
+
+  #what-we-do-section{
+    margin-top: 700px;
+
+  }
+  #what-we-do-section-container01{
+    /* border: 2px solid green; */
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  #what-we-do-section-container01 h1{
+    font-size: 40px;
+    color: red;
+    filter: blur(1px);
+    margin-bottom: 10px;
+  }
+
+  #what-we-do-section-container01 p{
+    font-size: x-large;
+    font-weight: bold;
+    color: rgb(155, 155, 155);
+
+  }
+
+  #what-we-do-section-container02{
+    margin-top: 100px;
+  }
+
+  #what-we-do-Subcontainer01{
+    margin-top: 30px;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  #what-we-do-Subcontainer01-01{
+    width: 330px;
+    height: 300px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+    margin-bottom: 30px;
+
+  }
+
+  #what-we-do-Subcontainer01-01:hover{
+    box-shadow: 4px 3px 4px 5px rgb(227, 227, 227);
+  }
+
+
+
+  #what-we-do-Subcontainer01-01 img{
+    width: 90px;
+  }
+  
+  /* Fitness Schedule section style */
+
+  #Fitness-Schedule-section{
+    margin-top:100px ;
+    width: 100vw;
+    background-color: rgb(242, 242, 242);
+  }
+
+  #Fitness-Schedule-section-container01{
+    padding-top: 50px;
+    text-align: center;
+  }
+
+
+
+#Fitness-Schedule-section-container01 h1{
+  font-size: 40px;
+  color: red;
+  filter: blur(1px);
+  margin-bottom: 10px;
+}
+
+#Fitness-Schedule-section-container01 p{
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(153, 153, 153);
+
+}
+
+#Fitness-Schedule-section-container02{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#days-name{
+
+  width: 90%;
+  display: flex;
+  justify-content: space-;
+  align-content: center;
+  /* gap: 40px; */
+}
+
+#days-name p{
+  background-color: #fff;
+  color: red;
+  padding: 10px 55px;
+  font-size: large;
+  cursor: pointer;
+}
+
+#days-name p:hover{
+  background-color: red;
+  color: white;
+
+}
+
+#days-name p:active{
+  background-color: red;
+  color: white;
+
+}
+
+#Fitness-Schedule-section-container03{
+  margin-top: 100px;
+}
+
+#Fitness-Schedule-container03-01{
+  /* visibility: hidden; */
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+#Fitness-Schedule-container03-02{
+  /* margin-top: -100px;  */
+   /* visibility: hidden; */
+   padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#Fitness-Schedule-container03-01-div{
+  background-color:white ;
+  
+  display: flex;
+  align-items: center;
+
+  gap: 30px;
+
+  width: 42vw;
+  height: 18vh;
+  /* border: 2px solid saddlebrown; */
+  transition: 1s all ease-in-out;
+}
+
+#Fitness-Schedule-container03-01-div:hover{
+  background-color: rgba(255, 0, 0, 0.779);
+  color: #fff;
+
+
+  
+}
+
+#Fitness-Schedule-container03-01-div img{
+  width: 100px;
+  height: 18vh;
+}
+
+#Fitness-Schedule-container03-01-div div{
+  display: flex;
+  flex-direction: column;
+  gap:5px;
+}
+
+#Fitness-Schedule-container03-01-div div p{
+  color: rgb(177, 177, 177);
+}
+
+/* trainer section style  */
+
+#trainer-section{
+  margin-top: 700px;
+}
+
+#trainer-section-container01{
+  padding-top: 100px;
+  text-align: center;
+}
+
+
+#trainer-section-container01 h1{
+  font-size: 40px;
+  color: red;
+  filter: blur(1px);
+  margin-bottom: 10px;
+
+}
+
+#trainer-section-container01 p{
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(153, 153, 153);
+
+}
+
+#trainer-section-container02{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#trainer-section-container02-01{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  width: 250px;
+  height: 350px;
+  gap: 10px;
+}
+
+
+#trainer-section-container02-01 img{
+  width: 100px;
+  border-radius: 50%;
+}
+
+#trainer-section-container02-01 h2{
+  font-size: 18px;
+  font-weight: 900;
+}
+
+#trainer-section-container02-01 h3{
+  font-weight: bold;
+  color: rgb(153, 153, 153);
+
+}
+
 
 
 
