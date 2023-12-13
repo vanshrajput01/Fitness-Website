@@ -225,5 +225,61 @@ body{
     width: 600px;
   }
 
-  
+  /* Schedule img section  */
+
+  #Schedule-img-section{
+    margin-top: 100px;
+
+
+  }
+
+
+  #Schedule-img-section-container01 img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+  }
+
+
+  #Schedule-img-Subcontainer01{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 15px;
+
+    z-index: 1;
+  }
+
+
+  #Schedule-img-Subcontainer01 h1{
+    font-size: 45px;
+    color: #fff;
+  }
+
+  #Schedule-img-Subcontainer01 p{
+    color: #fff;
+    font-size: large;
+  }
+
+  #Schedule-img-Subcontainer01 button{
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: red;
+    transition: all 0.5s linear;
+  }
+
+  #Schedule-img-Subcontainer01 button:hover{
+    border: 2px solid black;
+    background-color: black;
+    color: #fff;
+  }
+
+
+
 
