@@ -56,6 +56,10 @@ body{
   display: none;
 }
 
+#nav-bar-container01 img{
+  width: 100px;
+}
+
 
 
 #nav-bar-container01 span{
@@ -263,6 +267,7 @@ body{
 
 
   #Schedule-img-Subcontainer01{
+    text-align: center;
     width: 100vw;
     height: 100vh;
     display: flex;

@@ -25,6 +25,13 @@ let day01 = document.querySelector("#day01")
 let day02 = document.querySelector("#day02")
 let day03 = document.querySelector("#day03")
 
+
+let day04 = document.querySelector("#day04")
+let day05 = document.querySelector("#day05")
+let day06 = document.querySelector("#day06")
+let day07 = document.querySelector("#day07")
+
+
 let Schedule1 = document.querySelector("#Fitness-Schedule-container03-01")
 let Schedule2 = document.querySelector("#Fitness-Schedule-container03-02")
 
@@ -74,6 +81,16 @@ day02.addEventListener("click",schedule2fun)
 
 day03.addEventListener("click",schedule3fun)
 
+
+day04.addEventListener("click",schedule4fun)
+
+day05.addEventListener("click",schedule5fun)
+
+day06.addEventListener("click",schedule6fun)
+
+day07.addEventListener("click",schedule7fun)
+
+
 function schedule1fun(){
   day03.style.backgroundColor = "white"
   day03.style.color = "red"
@@ -81,6 +98,14 @@ function schedule1fun(){
   day01.style.color = "white"
   day02.style.backgroundColor = "white"
   day02.style.color = "red"
+  day04.style.backgroundColor = "white"
+  day04.style.color = "red"
+  day05.style.backgroundColor = "white"
+  day05.style.color = "red"
+  day06.style.backgroundColor = "white"
+  day06.style.color = "red"
+  day07.style.backgroundColor = "white"
+  day07.style.color = "red"
   
 
   Schedule1.style.visibility = "inherit"
@@ -101,6 +126,14 @@ function schedule2fun(){
   day01.style.color = "red"
   day02.style.backgroundColor = "red"
   day02.style.color = "white"
+  day04.style.backgroundColor = "white"
+  day04.style.color = "red"
+  day05.style.backgroundColor = "white"
+  day05.style.color = "red"
+  day06.style.backgroundColor = "white"
+  day06.style.color = "red"
+  day07.style.backgroundColor = "white"
+  day07.style.color = "red"
   Schedule2.style.marginTop = "-130px"
   Schedule1.style.visibility = "hidden"
   
@@ -117,6 +150,14 @@ function schedule3fun(){
   day02.style.color = "red"
   day03.style.backgroundColor = "red"
   day03.style.color = "white"
+  day04.style.backgroundColor = "white"
+  day04.style.color = "red"
+  day05.style.backgroundColor = "white"
+  day05.style.color = "red"
+  day06.style.backgroundColor = "white"
+  day06.style.color = "red"
+  day07.style.backgroundColor = "white"
+  day07.style.color = "red"
   
 
   Schedule2.style.marginTop = "30px"
@@ -125,6 +166,86 @@ function schedule3fun(){
   Schedule2.style.visibility = "inherit"
 }
 
+
+
+function schedule4fun(){
+  day01.style.backgroundColor = "white"
+  day01.style.color = "red"
+  day02.style.backgroundColor = "white"
+  day02.style.color = "red"
+  day03.style.backgroundColor = "white"
+  day03.style.color = "red"
+  day04.style.backgroundColor = "red"
+  day04.style.color = "white"
+  day05.style.backgroundColor = "white"
+  day05.style.color = "red"
+  day06.style.backgroundColor = "white"
+  day06.style.color = "red"
+  day07.style.backgroundColor = "white"
+  day07.style.color = "red"
+
+}
+
+
+
+function schedule5fun(){
+  day01.style.backgroundColor = "white"
+  day01.style.color = "red"
+  day02.style.backgroundColor = "white"
+  day02.style.color = "red"
+  day03.style.backgroundColor = "white"
+  day03.style.color = "red"
+  day04.style.backgroundColor = "white"
+  day04.style.color = "red"
+  day05.style.backgroundColor = "red"
+  day05.style.color = "white"
+  day06.style.backgroundColor = "white"
+  day06.style.color = "red"
+  day07.style.backgroundColor = "white"
+  day07.style.color = "red"
+
+}
+
+
+
+function schedule6fun(){
+  day01.style.backgroundColor = "white"
+  day01.style.color = "red"
+  day02.style.backgroundColor = "white"
+  day02.style.color = "red"
+  day03.style.backgroundColor = "white"
+  day03.style.color = "red"
+  day04.style.backgroundColor = "white"
+  day04.style.color = "red"
+  day05.style.backgroundColor = "white"
+  day05.style.color = "red"
+  day06.style.backgroundColor = "red"
+  day06.style.color = "white"
+  day07.style.backgroundColor = "white"
+  day07.style.color = "red"
+
+}
+
+
+
+
+function schedule7fun(){
+  day01.style.backgroundColor = "white"
+  day01.style.color = "red"
+  day02.style.backgroundColor = "white"
+  day02.style.color = "red"
+  day03.style.backgroundColor = "white"
+  day03.style.color = "red"
+  day04.style.backgroundColor = "white"
+  day04.style.color = "red"
+  day05.style.backgroundColor = "white"
+  day05.style.color = "red"
+  day06.style.backgroundColor = "white"
+  day06.style.color = "red"
+  day07.style.backgroundColor = "red"
+  day07.style.color = "white"
+
+}
 
 
 
