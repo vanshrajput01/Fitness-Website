@@ -568,6 +568,7 @@ body{
 
 #footer-section{
   margin-top: 100px;
+  margin-bottom: 1000px;
 }
 
 #footer-section-container{
@@ -578,6 +579,13 @@ body{
   color: #fff;
   height: 10vh;
 }
+
+#social-media-icons{
+  display: flex;
+  gap: 20px;
+  font-size: x-large;
+}
+
 
 
 
@@ -931,6 +939,12 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+#footer-section-container{
+  display: flex;
+  flex-direction: column;
 }
 
 
