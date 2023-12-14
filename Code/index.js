@@ -91,116 +91,116 @@ function anchor1func(){
   anchor1.style.padding =  "8px 10px"
   anchor1.style.border = "1px solid red"
 
-  anchor2.style.backgroundColor = "white"
+  anchor2.style.backgroundColor = "#2e2c2c00"
   anchor2.style.color = "red"
-  anchor2.style.border = "1px solid white"
+  anchor2.style.border = "1px solid #2e2c2c00"
 
-  anchor3.style.backgroundColor = "white"
+  anchor3.style.backgroundColor = "#2e2c2c00"
   anchor3.style.color = "red"
-  anchor3.style.border = "1px solid white"
+  anchor3.style.border = "1px solid #2e2c2c00"
 
-  anchor4.style.backgroundColor = "white"
+  anchor4.style.backgroundColor = "#2e2c2c00"
   anchor4.style.color = "red"
-  anchor4.style.border = "1px solid white"
+  anchor4.style.border = "1px solid #2e2c2c00"
 
-  anchor5.style.backgroundColor = "white"
+  anchor5.style.backgroundColor = "#2e2c2c00"
   anchor5.style.color = "red"
-  anchor5.style.border = "1px solid white"
+  anchor5.style.border = "1px solid #2e2c2c00"
   
 }
 
 
 function anchor2func(){
 
-  anchor1.style.backgroundColor = "white"
+  anchor1.style.backgroundColor = "#2e2c2c00"
   anchor1.style.color = "red"
-  anchor1.style.border = "1px solid white"
+  anchor1.style.border = "1px solid #2e2c2c00"
 
   anchor2.style.backgroundColor = "red"
   anchor2.style.color = "white"
   anchor2.style.padding =  "8px 10px"
   anchor2.style.border = "1px solid red"
 
-  anchor3.style.backgroundColor = "white"
+  anchor3.style.backgroundColor = "#2e2c2c00"
   anchor3.style.color = "red"
-  anchor3.style.border = "1px solid white"
+  anchor3.style.border = "1px solid #2e2c2c00"
 
-  anchor4.style.backgroundColor = "white"
+  anchor4.style.backgroundColor = "#2e2c2c00"
   anchor4.style.color = "red"
-  anchor4.style.border = "1px solid white"
+  anchor4.style.border = "1px solid #2e2c2c00"
 
-  anchor5.style.backgroundColor = "white"
+  anchor5.style.backgroundColor = "#2e2c2c00"
   anchor5.style.color = "red"
-  anchor5.style.border = "1px solid white"
+  anchor5.style.border = "1px solid #2e2c2c00"
   
 }
 
 
 function anchor3func(){
-  anchor1.style.backgroundColor = "white"
+  anchor1.style.backgroundColor = "#2e2c2c00"
   anchor1.style.color = "red"
-  anchor1.style.border = "1px solid white"
+  anchor1.style.border = "1px solid #2e2c2c00"
 
-  anchor2.style.backgroundColor = "white"
+  anchor2.style.backgroundColor = "#2e2c2c00"
   anchor2.style.color = "red"
-  anchor2.style.border = "1px solid white"
+  anchor2.style.border = "1px solid #2e2c2c00"
 
   anchor3.style.backgroundColor = "red"
   anchor3.style.color = "white"
   anchor3.style.padding =  "8px 10px"
   anchor3.style.border = "1px solid red"
 
-  anchor4.style.backgroundColor = "white"
+  anchor4.style.backgroundColor = "#2e2c2c00"
   anchor4.style.color = "red"
-  anchor4.style.border = "1px solid white"
+  anchor4.style.border = "1px solid #2e2c2c00"
 
-  anchor5.style.backgroundColor = "white"
+  anchor5.style.backgroundColor = "#2e2c2c00"
   anchor5.style.color = "red"
-  anchor5.style.border = "1px solid white"
+  anchor5.style.border = "1px solid #2e2c2c00"
   
 }
 
 
 function anchor4func(){
-  anchor1.style.backgroundColor = "white"
+  anchor1.style.backgroundColor = "#2e2c2c00"
   anchor1.style.color = "red"
-  anchor1.style.border = "1px solid white"
+  anchor1.style.border = "1px solid #2e2c2c00"
 
-  anchor2.style.backgroundColor = "white"
+  anchor2.style.backgroundColor = "#2e2c2c00"
   anchor2.style.color = "red"
-  anchor2.style.border = "1px solid white"
+  anchor2.style.border = "1px solid #2e2c2c00"
 
-  anchor3.style.backgroundColor = "white"
+  anchor3.style.backgroundColor = "#2e2c2c00"
   anchor3.style.color = "red"
-  anchor3.style.border = "1px solid white"
+  anchor3.style.border = "1px solid #2e2c2c00"
 
   anchor4.style.backgroundColor = "red"
   anchor4.style.color = "white"
   anchor4.style.padding =  "8px 10px"
   anchor4.style.border = "1px solid red"
 
-  anchor5.style.backgroundColor = "white"
+  anchor5.style.backgroundColor = "#2e2c2c00"
   anchor5.style.color = "red"
-  anchor5.style.border = "1px solid white"
+  anchor5.style.border = "1px solid #2e2c2c00"
   
 }
 
 function anchor5func(){
-  anchor1.style.backgroundColor = "white"
+  anchor1.style.backgroundColor = "#2e2c2c00"
   anchor1.style.color = "red"
-  anchor1.style.border = "1px solid white"
+  anchor1.style.border = "1px solid #2e2c2c00"
 
-  anchor2.style.backgroundColor = "white"
+  anchor2.style.backgroundColor = "#2e2c2c00"
   anchor2.style.color = "red"
-  anchor2.style.border = "1px solid white"
+  anchor2.style.border = "1px solid #2e2c2c00"
 
-  anchor3.style.backgroundColor = "white"
+  anchor3.style.backgroundColor = "#2e2c2c00"
   anchor3.style.color = "red"
-  anchor3.style.border = "1px solid white"
+  anchor3.style.border = "1px solid #2e2c2c00"
 
-  anchor4.style.backgroundColor = "white"
+  anchor4.style.backgroundColor = "#2e2c2c00"
   anchor4.style.color = "red"
-  anchor4.style.border = "1px solid white"
+  anchor4.style.border = "1px solid #2e2c2c00"
 
   anchor5.style.backgroundColor = "red"
   anchor5.style.color = "white"
