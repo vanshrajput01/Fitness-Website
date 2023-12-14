@@ -19,6 +19,17 @@ let barIcon = document.querySelector('.header-bar-icon1')
 let navBarUl = document.querySelector("#nav-bar-ul")
 var sticky = navbar.offsetTop;
 
+
+// Anchor tag style
+
+
+let anchor1 = document.querySelector("#Aabout")
+let anchor2 = document.querySelector("#Aservices")
+let anchor3 = document.querySelector("#Aschedule")
+let anchor4 = document.querySelector("#Atrainer")
+let anchor5 = document.querySelector("#Acontact")
+
+
 // Fitness Schedule logic
 
 let day01 = document.querySelector("#day01")
@@ -66,7 +77,137 @@ function myFunction() {
 }
 
 
+// anchor tag logic
 
+anchor1.addEventListener("click",anchor1func)
+anchor2.addEventListener("click",anchor2func)
+anchor3.addEventListener("click",anchor3func)
+anchor4.addEventListener("click",anchor4func)
+anchor5.addEventListener("click",anchor5func)
+
+function anchor1func(){
+  anchor1.style.backgroundColor = "red"
+  anchor1.style.color = "white"
+  anchor1.style.padding =  "8px 10px"
+  anchor1.style.border = "1px solid red"
+
+  anchor2.style.backgroundColor = "white"
+  anchor2.style.color = "red"
+  anchor2.style.border = "1px solid white"
+
+  anchor3.style.backgroundColor = "white"
+  anchor3.style.color = "red"
+  anchor3.style.border = "1px solid white"
+
+  anchor4.style.backgroundColor = "white"
+  anchor4.style.color = "red"
+  anchor4.style.border = "1px solid white"
+
+  anchor5.style.backgroundColor = "white"
+  anchor5.style.color = "red"
+  anchor5.style.border = "1px solid white"
+  
+}
+
+
+function anchor2func(){
+
+  anchor1.style.backgroundColor = "white"
+  anchor1.style.color = "red"
+  anchor1.style.border = "1px solid white"
+
+  anchor2.style.backgroundColor = "red"
+  anchor2.style.color = "white"
+  anchor2.style.padding =  "8px 10px"
+  anchor2.style.border = "1px solid red"
+
+  anchor3.style.backgroundColor = "white"
+  anchor3.style.color = "red"
+  anchor3.style.border = "1px solid white"
+
+  anchor4.style.backgroundColor = "white"
+  anchor4.style.color = "red"
+  anchor4.style.border = "1px solid white"
+
+  anchor5.style.backgroundColor = "white"
+  anchor5.style.color = "red"
+  anchor5.style.border = "1px solid white"
+  
+}
+
+
+function anchor3func(){
+  anchor1.style.backgroundColor = "white"
+  anchor1.style.color = "red"
+  anchor1.style.border = "1px solid white"
+
+  anchor2.style.backgroundColor = "white"
+  anchor2.style.color = "red"
+  anchor2.style.border = "1px solid white"
+
+  anchor3.style.backgroundColor = "red"
+  anchor3.style.color = "white"
+  anchor3.style.padding =  "8px 10px"
+  anchor3.style.border = "1px solid red"
+
+  anchor4.style.backgroundColor = "white"
+  anchor4.style.color = "red"
+  anchor4.style.border = "1px solid white"
+
+  anchor5.style.backgroundColor = "white"
+  anchor5.style.color = "red"
+  anchor5.style.border = "1px solid white"
+  
+}
+
+
+function anchor4func(){
+  anchor1.style.backgroundColor = "white"
+  anchor1.style.color = "red"
+  anchor1.style.border = "1px solid white"
+
+  anchor2.style.backgroundColor = "white"
+  anchor2.style.color = "red"
+  anchor2.style.border = "1px solid white"
+
+  anchor3.style.backgroundColor = "white"
+  anchor3.style.color = "red"
+  anchor3.style.border = "1px solid white"
+
+  anchor4.style.backgroundColor = "red"
+  anchor4.style.color = "white"
+  anchor4.style.padding =  "8px 10px"
+  anchor4.style.border = "1px solid red"
+
+  anchor5.style.backgroundColor = "white"
+  anchor5.style.color = "red"
+  anchor5.style.border = "1px solid white"
+  
+}
+
+function anchor5func(){
+  anchor1.style.backgroundColor = "white"
+  anchor1.style.color = "red"
+  anchor1.style.border = "1px solid white"
+
+  anchor2.style.backgroundColor = "white"
+  anchor2.style.color = "red"
+  anchor2.style.border = "1px solid white"
+
+  anchor3.style.backgroundColor = "white"
+  anchor3.style.color = "red"
+  anchor3.style.border = "1px solid white"
+
+  anchor4.style.backgroundColor = "white"
+  anchor4.style.color = "red"
+  anchor4.style.border = "1px solid white"
+
+  anchor5.style.backgroundColor = "red"
+  anchor5.style.color = "white"
+  anchor5.style.padding =  "8px 10px"
+  anchor5.style.border = "1px solid red"
+  
+}
 
 
 

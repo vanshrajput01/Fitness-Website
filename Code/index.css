@@ -88,7 +88,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
 
 
   }
@@ -98,9 +98,17 @@ body{
   }
 
   #nav-bar #nav-bar-ul li a{
+    /* border: 2px solid red; */
     text-decoration: none;
     color: red;
   }
+
+  #nav-bar #nav-bar-ul li a:hover{
+    font-weight: 900;
+
+  }
+
+
 
   #header-bar-icon{
     color: red;
