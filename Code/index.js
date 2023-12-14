@@ -183,6 +183,8 @@ function schedule4fun(){
   day06.style.color = "red"
   day07.style.backgroundColor = "white"
   day07.style.color = "red"
+  Schedule1.style.visibility = "hidden"
+  Schedule2.style.visibility = "hidden"
 
 }
 
@@ -203,6 +205,8 @@ function schedule5fun(){
   day06.style.color = "red"
   day07.style.backgroundColor = "white"
   day07.style.color = "red"
+  Schedule1.style.visibility = "hidden"
+  Schedule2.style.visibility = "hidden"
 
 }
 
@@ -223,6 +227,8 @@ function schedule6fun(){
   day06.style.color = "white"
   day07.style.backgroundColor = "white"
   day07.style.color = "red"
+  Schedule1.style.visibility = "hidden"
+  Schedule2.style.visibility = "hidden"
 
 }
 
@@ -244,6 +250,8 @@ function schedule7fun(){
   day06.style.color = "red"
   day07.style.backgroundColor = "red"
   day07.style.color = "white"
+  Schedule1.style.visibility = "hidden"
+  Schedule2.style.visibility = "hidden"
 
 }
 
